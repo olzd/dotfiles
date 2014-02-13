@@ -1,0 +1,93 @@
+/* Vim */
+
+Vim*borderwith: 0
+
+/* URxvt */
+
+URxvt*termName: rxvt
+URxvt*font: xft:Monospace:pixelsize=13: antialias=false
+URxvt*allow_bold: true
+URxvt*depth: 32
+URxvt*foreground: white
+URxvt*background: black
+URxvt*transparent: false
+URxvt*shading: 10
+URxvt*tint: black
+URxvt*cursorBlink: false
+URxvt*cursorColor: #FFFFFF
+URxvt*scrollBar: false
+URxvt*saveLines: 500
+URxvt*perl-ext-common: default,matcher,tabbed
+URxvt*urlLauncher: firefox
+URxvt*colorUrl: #3465A4
+URxvt*matcher.button: 1
+URxvt*tabbed.tabbar-fg: #000000
+URxvt*tabbed.tabbar-bg: 15
+URxvt*tabbed.tab-fg: #000000
+URxvt*tabbed.tab-bg: 15
+URxvt*internalBorder: 1
+URxvt*externalBorder: 1
+
+/* Xterm */
+
+UXTerm*termName: xterm
+UXTerm*borderWidth: 0
+UXTerm*background: black
+UXTerm*foreground: white
+UXTerm*scrollBar: off
+UXTerm*faceName: xft:Monospace:pixelsize=13:antialias=true
+UXTerm*saveLines: 500
+UXTerm*dynamicColors: true
+UXTerm*utf8: 2
+UXTerm*eightBitInput: true
+UXTerm*color255: true
+UXTerm*cursorBlink: false
+
+! black
+URxvt*color0: #292929
+URxvt*color8: #3D3D3D
+UXTerm*color0: #292929
+UXTerm*color8: #3D3D3D
+
+! red
+URxvt*color1: #DE6951
+URxvt*color9: #C56A47
+UXTerm*color1: #DE6951
+UXTerm*color9: #C56A47
+
+! green
+URxvt*color2: #BCDA55
+URxvt*color10: #9DBF60
+UXTerm*color2: #BCDA55
+UXTerm*color10: #9DBF60
+
+! yellow
+URxvt*color3: #E2A564
+URxvt*color11: #EC8A25
+UXTerm*color3: #E2A564
+UXTerm*color11: #EC8A25
+
+! blue
+URxvt*color4: #2187F6
+URxvt*color12: #0000FF
+UXTerm*color4: #2187F6
+UXTerm*color12: #0000FF
+
+! magenta
+URxvt*color5: #875C8D
+URxvt*color13: #E41F66
+UXTerm*color5: #875C8D
+UXTerm*color13: #E41F66
+
+! cyan
+URxvt*color6: #4390B1
+URxvt*color14: #276CC2
+UXTerm*color6: #4390B1
+UXTerm*color14: #276CC2
+
+! white
+URxvt*color7: #D2D2D2
+URxvt*color15: #FFFFFF
+UXTerm*color7: #D2D2D2
+UXTerm*color15: #FFFFFF
+
