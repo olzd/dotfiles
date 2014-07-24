@@ -98,6 +98,8 @@ alias screen='screen -A -U'
 alias h='history'
 alias sudo='sudo '
 alias bd='. bd -s'
+alias ocaml='rlwrap ocaml'
+alias tmux='tmux -2'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -116,8 +118,9 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 # set the default text editor
-export EDITOR=emacsclient
-export VISUAL=emacsclient
+export EDITOR=vim
+export VISUAL=vim
+export TERM=rxvt-unicode
 
 # alternate editor
 export ALTERNATE_EDITOR=emacs
@@ -128,4 +131,16 @@ shopt -s checkwinsize
 PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/include/
 export PKG_CONFIG_PATH
 
+# add elixir-{version}/bin to PATH
+# export PATH=$HOME/elixir-0.12.5/bin:$HOME/.cabal/bin:$HOME/finalterm/bin:$PATH
+
+# export XDG_DATA_DIRS=$HOME/finalterm/share:$XDG_DATA_DIRS
+
+# add .cabal/bin to PATH
+export PATH=$HOME/.cabal/bin:$HOME/.nix-profile/bin:$HOME/.nix-profile/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
+export TERMINAL=urxvtc
+
+# solarized colortheme for the 'ls' command
+eval `dircolors .dircolors-solarized`
 

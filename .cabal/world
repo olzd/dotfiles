@@ -1,0 +1,7 @@
+hakyll -any
+cabal-install -any
+happy -any
+alex -any
+ghc-mod -any
+hlint -any
+structured-haskell-mode -any

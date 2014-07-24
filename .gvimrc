@@ -7,7 +7,9 @@ if has("gui_running")
 	set guioptions-=r
 	set guioptions-=L
 	set guioptions +=a
-	set guioptions+=m
+	set guioptions-=m
+    set guioptions-=b
+    set guiheadroom=0
 	set listchars=tab:▸\ ,eol:¬  " Hum..
 endif
 
